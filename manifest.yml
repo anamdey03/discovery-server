@@ -1,0 +1,6 @@
+---
+applications:
+- name: discovery-server
+  instances: 1
+  memory: 500m
+  path: target/discovery-server-1.0.0-SNAPSHOT.jar
