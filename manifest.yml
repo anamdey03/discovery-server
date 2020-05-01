@@ -1,8 +1,8 @@
 ---
 applications:
-- name: discovery
+- name: anamitra-discovery
   routes:
-   - route: discovery.cfapps.io
+   - route: anamitra-discovery.cfapps.io
   instances: 1
   memory: 500m
   path: target/discovery-server-1.0.0-SNAPSHOT.jar
